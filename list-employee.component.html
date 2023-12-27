@@ -1,0 +1,26 @@
+
+<div class="container ">
+
+    <div class="text-center">
+        <!-- <img src="../assets/user-data-icon.jpg" alt="desc" class="img " width="20%"> -->
+        <h1>List Employees</h1>
+        
+    </div>
+    <pre></pre>
+    
+    <div class="row justify-content-center">
+
+      <ul class="list-group w-100">
+        <li class="list-group-item"  *ngFor="let x of employees" > {{x.id}} - {{x.name}}
+          <button class="btn btn-success float-end button" [routerLink]="['edit',x.id]"> Edit </button>
+
+          <button class="btn btn-info float-end button" [routerLink]="['view',x.id]" > View </button>
+
+          <button class="btn btn-danger float-end button"(click)="deleteuser(x.id)"> Delete</button>
+        </li>
+        
+        <button class="btn btn-larg btn-primary m-3" [routerLink]="['add']"> Add User</button>
+      </ul>
+
+    </div>
+  </div>

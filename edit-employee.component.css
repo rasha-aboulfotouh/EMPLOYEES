@@ -1,0 +1,30 @@
+
+
+h2 {
+    text-align: center;
+
+}
+
+.form-controle {
+    width: 50%;
+    height:50px;
+    background-color: rgba(192, 223, 193, 0.89);
+
+}
+
+
+
+label {
+    color: rgb(6, 94, 6);
+    font-size: larger;
+    width: 50px;
+    margin-right: 70px;
+}
+
+
+
+.btn {
+    width: 70%;
+
+}
+
