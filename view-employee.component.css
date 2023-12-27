@@ -1,12 +1,14 @@
 
 
-.text-center {
-    background-color: antiquewhite;
+
+
+.card {
+    background-color: beige;
 
 }
 
-.card-header {
-    background-color: bisque;
+img {
+    border-radius: 350%;
 
 }
 
@@ -17,4 +19,12 @@
 
 .card-text {
     color: rgb(221, 59, 59);
+}
+
+.btn {
+    width: 100%;
+    background-color: firebrick;
+    color: white;
+    font-size: 23px;
+
 }

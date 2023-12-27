@@ -1,5 +1,4 @@
-
-<div class="container w-60 mt-5">
+<!-- <div class="container w-60 mt-5">
     <div class="card text-center">
         <div class="card-header">
            <h3> Employee Details </h3>
@@ -16,19 +15,28 @@
             <a [routerLink]="['/']" class="btn btn-primary"> Go Back </a>
         </div>
     </div>
-</div>
+</div> -->
 
-<!-- <div class="card mb-3" style="max-width: 540px;">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img src="..." class="img-fluid rounded-start" alt="...">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+<div class="container w-60 mt-5 text-center">
+    <div class="card">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="./assets/user-img.jpeg" class="img-fluid start" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h3 class="card-title"> {{employee?.name}} </h3>
+
+                    <p class="card-text"> age: {{employee?.age}} </p>
+                    <p class="card-text"> address: {{employee?.address}} </p>
+                    <p class="card-text"> UserName: {{employee?.email}} </p>
+                    <p class="card-text"> Password: {{employee?.password}} </p>
+
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div> -->
+    <pre></pre>
+    <a [routerLink]="['/']" class="btn "> Go Back </a>
+
+</div>
